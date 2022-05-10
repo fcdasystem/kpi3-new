@@ -1,0 +1,61 @@
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    background: #121a26;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+}
+.users {
+	display: flex;
+}
+
+.user {
+   
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #202a3a;
+	border-radius: 10px;
+	padding: 20px;
+	flex: 1;
+	margin: 15px;
+	font-family: 'Oswald', sans-serif;
+	color: #e26161;
+}
+
+.user div:not(.photo) {
+	padding: 10px 0; 
+}
+
+.photo {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 128px;
+	height: 128px;
+}
+
+.photo img {
+	width: 100%;
+}
+
+
+.btn {
+    margin: 5%;  
+	background: rgb(160, 156, 30);
+	border: 0;
+	padding: 10px 25px;
+	border-radius: 5px;
+	transition: 200ms ease-in-out;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: .4px;
+    font-weight: 400;
+}
+
+.btn:hover {
+	background: rgb(107, 107, 3);
+    
+}
